@@ -1,1 +1,41 @@
 Test cases
+# Test Case ID: TC-LOGIN-001
+## Title:
+Verify login functionality with valid email and password
+
+## Preconditions:
+- User must be registered on the website.
+- Browser cache and cookies cleared.
+
+## Test Data:
+- Email: testuser@example.com
+- Password: Test1234
+
+## Test Steps:
+1. Open the website login page: https://example.com/login
+2. Enter the email in the "Email" field.
+3. Enter the password in the "Password" field.
+4. Click the "Login" button.
+5. Observe the response.
+
+## Expected Result:
+- User is successfully logged in.
+- User is redirected to the dashboard page.
+- Dashboard page shows user’s name and account info.
+
+## Actual Result:
+(To be filled during testing)
+
+## Status:
+Not Executed
+
+## Priority:
+High
+
+## Severity:
+Critical
+
+## Notes:
+- Check UI elements after login (welcome message, menu access).
+- Verify URL changes to /dashboard.
+- Verify no error messages are shown.
